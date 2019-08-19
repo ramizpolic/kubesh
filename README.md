@@ -1,12 +1,12 @@
 # Kubesh
 
 Tool to access Kubernetes nodes via SSH. 
-It creates a port-forward against a pod running socat, so you can SSH via localhost.
+It creates a port-forward against a pod running socat, allowing SSH via localhost.
 
 Example usage
 ----
 
-1. Install stuff in requirements.txt (python3)
+1. pip3 install -r requirements.txt
 2. Set *KUBECONFIG* env var to a valid k8s config
 
 
