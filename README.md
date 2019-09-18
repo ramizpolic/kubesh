@@ -6,7 +6,7 @@ It creates a port-forward against a pod running socat, allowing SSH via localhos
 Example usage
 ----
 
-1. pip3 install -r requirements.txt
+1. `pip3 install -r requirements.txt`
 2. Set *KUBECONFIG* env var to a valid k8s config
 
 
