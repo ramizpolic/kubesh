@@ -47,11 +47,11 @@ $ kubesh --connect 1
 
 $ ./kubesh --destroy
   ================ Roles
-  09-26-20 12:05   INFO    | Deleting Role 'tunneling-bznrfgxo'
+  Deleting Role 'tunneling-bznrfgxo'
   ================ Role Bindings
-  09-26-20 12:05   INFO    | Deleting Role Binding 'tunneling-bznrfgxo'
+  Deleting Role Binding 'tunneling-bznrfgxo'
   ================ Namespace
-  09-26-20 12:05   INFO    | Deleting Namespace 'tunneling'
+  Deleting Namespace 'tunneling'
 ```
 
 License
