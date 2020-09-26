@@ -5,8 +5,8 @@ import os
 import logging
 import signal
 import warnings
-from main.servicetunnel import ServiceTunnel
-from main.helpers import MyParser
+from src.tunnel import ServiceTunnel
+from src.helpers import MyParser
 
 def keyboardInterruptHandler(signal, frame):
     sys.exit(0)
