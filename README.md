@@ -3,10 +3,17 @@
 Tool to access Kubernetes nodes via SSH. 
 It creates a port-forward against a pod running socat, allowing SSH via localhost, and assigns a shell within the cluster.
 
+Install
+----
+```
+$ pip3 install -r requirements.txt
+$ export PATH="$PATH:$pwd"
+$ kubesh
+```
+
 Example usage
 ----
 ```bash
-$ pip3 install -r requirements.txt
 $ kubesh --help
   usage: k8s-worker-ssh.py [-h] [--connect NODE] [--destroy] [--init] [--list]
 
@@ -31,8 +38,6 @@ $ kubesh --connect 1
   Assigning pod 'tunneling-bznrfgxo'
   Pod created, waiting to be ready...
   Pod status is: [Pending]
-  Pod status is: [Pending]
-  Pod status is: [Running]
 
   Creating port-forward rules, please wait...
   Forwarding from 127.0.0.1:8022 -> 8022
